@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Callback</title>
+    <title>Callback Page</title>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css" />
   </head>
   <body>
     <script type="text/javascript" src="scripts/purify.min.js"></script>
-    <h1>Warning</h1>
-    <h2>
-      This page is intended for developers to retrieve query parameters. If you
-      came to this page from an email or text message, do not click any links on
-      this page as it may be a scam.
-    </h2>
+    <h1>Query Parameters</h1>
+    <div class="warning-message">
+      <strong>Notice:</strong> This page is intended for developers to retrieve query parameters. If you
+      came to this page from an email or message, do not follow any links or messages on
+      this page as <strong>it may be a scam</strong>.
+    </div>
     <div id="params" class=""></div>
     <script>
       const params = new URLSearchParams(window.location.search);

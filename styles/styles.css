@@ -1,0 +1,9 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+.warning-message {
+    background-color: darkred;
+    color: white;
+    padding: 12px 12px;
+}
